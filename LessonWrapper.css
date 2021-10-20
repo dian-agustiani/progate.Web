@@ -1,0 +1,161 @@
+body {
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(img/TopWrapperBackground.png);
+  background-size: cover;
+  color: black;
+  text-align: center;
+  background-color: #d1265c; 
+}
+
+.top-wrapper h1 {
+  opacity: 1;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 10px;
+
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background: color rgba(116, 28, 79, 0.9);
+  /* Ubah position ke fixed, dan top ke 0 */
+  position:fixed;
+  top:0;
+  background-color: rgba(179, 113, 151, 0.9);
+  /* Ubah z-index ke 10 */
+  z-index:10;
+}
+
+.logo {
+  
+  height: 65px;
+  margin-top: 2px;
+}
+
+.header-left {
+  float: left;
+  
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(224, 60, 175, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float:left;
+  transition:all 0.5s;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #FEF6FB;
+  /* Ubah property text-align ke center */
+  text-align: center;
+  align-content: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #180935;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lessons{
+  padding-left: 150px;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+  
+}
+
+/* Tambahkan CSS untuk lesson-icon */
+.lesson-icon {
+  position: relative;
+  
+  height: 100px;
+}
+
+
+/* Tambahkan CSS untuk txt-contents */
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #020307;
+}
+

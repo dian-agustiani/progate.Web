@@ -1,7 +1,68 @@
 body {
-    font-family: "Avenir Next";
+    
+    margin: 0;
+    font-family: "Lucida Grande";
+    background-color:  #F6ECF0;
   }
   
 .main {
     padding: 100px 80px;
   }
+
+  /* ismi's */
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+    background-color: #E9B2BC;
+    }
+      
+    .message {
+    padding: 15px 40px;
+    background-color: #f79699;
+    /*background-color: #A7C5EB; */
+    cursor: pointer;
+    box-shadow: 0 7px #f79699;
+    /* box-shadow: 0 7px #A7C5EB; */
+    }
+
+    .btn message{
+      background-color: #E1F2FB;
+    }
+      
+    .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+    }
+
+    footer container{
+      background-color: color rgba(116, 28, 79, 0.9);
+    }
+      
+    footer img {
+      /* width: 124px; */
+      height: 50px;
+      margin-top: 20px;
+    }
+      
+    footer {
+      /*background-color: color rgba(116, 28, 79, 0.9);*/
+      color: rgb(37, 8, 143);
+      height: 80px;
+      /*background: color rgba(116, 28, 79, 0.9);*/
+      background: #D6E5FA;
+      
+    }
+      
+    .footer-list {
+      float: right;
+    }
+    
+    .footer-list li {
+      float: right;
+      padding: 20px 20px; 
+      /*padding-left: 10px;
+      padding-right: 10px;*/
+      list-style: none;
+    }
